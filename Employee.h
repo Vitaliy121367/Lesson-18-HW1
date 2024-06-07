@@ -15,4 +15,12 @@ struct Employee
 	char pos[100] = "";
 	float zp = 0;
 	char osvita[100] = "";
+
+	void show() {
+		cout << Surname << endl;
+		cout << years << endl;
+		cout << pos << endl;
+		cout << zp << endl;
+		cout << osvita << endl;
+	};
 };
