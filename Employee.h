@@ -6,7 +6,6 @@
 #include <Windows.h>
 #include <stdio.h>
 #include <cstdio>
-#include <cstring>
 using namespace std;
 
 struct Employee

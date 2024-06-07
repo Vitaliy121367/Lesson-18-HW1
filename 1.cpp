@@ -5,7 +5,6 @@
 #include <Windows.h>
 #include <stdio.h>
 #include <cstdio>
-#include <cstring>
 #include "Employee.h"
 using namespace std;
 
