@@ -1,20 +1,24 @@
-﻿// 1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+﻿#include <iostream>
+#include <clocale>
+#include <cstdlib>
+#include <ctime>
+#include <Windows.h>
+#include <stdio.h>
+#include <cstdio>
+#include <cstring>
+#include "Employee.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+    Employee employee[5] = {
+        {"Бондаренко", 2009, "хтось1",12000,"базова"},
+        {"Лихобаба", 2008, "хтось2",10000,"базова"},
+        {"Варичев", 2007, "хтось3",11500,"базова"},
+        {"Ряполов", 2008, "хтось4",10300,"базова"},
+        {"Васильєв", 2007, "хтось5",11000,"базова"}
+    }
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

@@ -1,4 +1,13 @@
 #pragma once
+#include <iostream>
+#include <clocale>
+#include <cstdlib>
+#include <ctime>
+#include <Windows.h>
+#include <stdio.h>
+#include <cstdio>
+#include <cstring>
+using namespace std;
 
 struct Employee
 {
